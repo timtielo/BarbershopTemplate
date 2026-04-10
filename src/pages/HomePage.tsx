@@ -55,7 +55,7 @@ export default function HomePage({ onNavigate }: HomePageProps) {
       <section className="relative h-[85vh] flex items-center justify-center text-center px-6 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <img
-            src="[AFBEELDING_1]"
+            src="https://images.unsplash.com/photo-1521490683712-35a1cb235d1c?q=80&w=2070&auto=format&fit=crop"
             className="w-full h-full object-cover opacity-30"
             alt="[BEDRIJFSNAAM] interieur"
           />
