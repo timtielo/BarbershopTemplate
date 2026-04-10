@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "notion": {
+      "enabled": false
+    },
+    "github": {
+      "enabled": true
+    }
+  }
+}
