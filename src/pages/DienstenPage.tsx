@@ -1,23 +1,23 @@
 const diensten = [
   {
-    title: 'Heren Knippen',
-    description: 'Inclusief contourscheren en professionele styling.',
-    price: 'Bel voor prijs',
+    title: '[DIENST_1]',
+    description: '[OMSCHRIJVING_DIENST_1]',
+    price: '[PRIJS_1]',
   },
   {
-    title: 'Baardverzorging',
-    description: 'Trimmen, in model brengen en contourscheren.',
-    price: 'Bel voor prijs',
+    title: '[DIENST_2]',
+    description: '[OMSCHRIJVING_DIENST_2]',
+    price: '[PRIJS_2]',
   },
   {
-    title: 'Knippen & Baard',
-    description: 'Het volledige onderhoud voor een scherpe prijs.',
-    price: 'Bel voor prijs',
+    title: '[DIENST_3]',
+    description: '[OMSCHRIJVING_DIENST_3]',
+    price: '[PRIJS_3]',
   },
   {
-    title: 'Kids Knippen (t/m 12jr)',
-    description: 'Geduldige behandeling voor jonge heren.',
-    price: 'Bel voor prijs',
+    title: '[DIENST_4]',
+    description: '[OMSCHRIJVING_DIENST_4]',
+    price: '[PRIJS_4]',
   },
 ];
 
@@ -27,7 +27,7 @@ export default function DienstenPage() {
       <div className="max-w-4xl mx-auto">
         <h1 className="section-title text-center mb-4 font-heading">Diensten & Tarieven</h1>
         <p className="text-center opacity-50 mb-16 italic text-sm">
-          Zorgvuldigheid staat bij ons voorop. Wij accepteren de U-pas.
+          Zorgvuldigheid staat bij ons voorop. [BETAALMETHODE_VERMELDING]
         </p>
 
         <div className="space-y-0">
@@ -46,7 +46,7 @@ export default function DienstenPage() {
               </div>
               <div className="text-right">
                 <a
-                  href="tel:0681546043"
+                  href="tel:[TELEFOON]"
                   className="text-sm font-heading uppercase tracking-widest text-gold hover:opacity-80 transition-opacity"
                 >
                   {d.price}
@@ -58,7 +58,7 @@ export default function DienstenPage() {
 
         <div className="mt-16 p-8 bg-navy-charcoal border border-[#374151] text-center">
           <p className="text-sm opacity-70">
-            Wist u dat we gratis koffie en thee serveren terwijl u wacht of geknipt wordt?
+            [EXTRA_INFO_DIENSTEN]
           </p>
         </div>
 
@@ -66,13 +66,13 @@ export default function DienstenPage() {
           <p className="text-sm opacity-70 mb-6">Neem contact op voor actuele prijzen.</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="tel:0681546043"
+              href="tel:[TELEFOON]"
               className="bg-gold text-navy-deep font-heading font-bold px-10 py-3 uppercase tracking-wide transition-all duration-300 hover:opacity-90"
             >
-              Bel 06 815 460 43
+              Bel [TELEFOON]
             </a>
             <a
-              href="https://wa.me/31681546043"
+              href="https://wa.me/[WHATSAPP_NUMMER]"
               className="border border-textMain text-textMain font-heading font-bold px-10 py-3 uppercase tracking-wide transition-all duration-300 hover:bg-textMain hover:text-navy-deep"
             >
               WhatsApp ons

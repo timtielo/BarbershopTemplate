@@ -8,47 +8,43 @@ interface HomePageProps {
 
 const services = [
   {
-    title: 'De Perfecte Fade',
-    description: 'Prachtig opgeschoren kapsels met oog voor detail.',
-    badge: 'Populair',
+    title: '[DIENST_1]',
+    description: '[OMSCHRIJVING_DIENST_1]',
+    badge: '[BADGE_1]',
   },
   {
-    title: 'Baard trimmen',
-    description: 'Contouren bijwerken en de baard weer strak in model.',
-    badge: 'Vakwerk',
+    title: '[DIENST_2]',
+    description: '[OMSCHRIJVING_DIENST_2]',
+    badge: '[BADGE_2]',
   },
   {
-    title: 'Knippen & Baard',
-    description: 'Het volledige pakket voor de verzorgde man.',
-    badge: 'Compleet',
+    title: '[DIENST_3]',
+    description: '[OMSCHRIJVING_DIENST_3]',
+    badge: '[BADGE_3]',
   },
   {
-    title: 'Heren & Kids',
-    description: 'Alle tijd en rust, ook voor de allerkleinsten.',
-    badge: 'Geduldig',
+    title: '[DIENST_4]',
+    description: '[OMSCHRIJVING_DIENST_4]',
+    badge: '[BADGE_4]',
   },
 ];
 
 const reviews = [
   {
-    review:
-      'De beste kapper! Mijn zoontje gaat hier altijd weg met een prachtig opgeschoren kapsel. Personeel is vriendelijk en neemt echt de tijd.',
-    name: 'Sam Sam',
+    review: '[REVIEW_TEKST_1]',
+    name: '[REVIEW_NAAM_1]',
   },
   {
-    review:
-      'Goede prijs goede kwaliteit. Ook voor mijn zoontje alle tijd en rust. Vond knippen eng maar niet hier.',
-    name: 'Max van der Peet',
+    review: '[REVIEW_TEKST_2]',
+    name: '[REVIEW_NAAM_2]',
   },
   {
-    review:
-      'Top kapper! Heerlijk rustige, vriendelijke en vooral kundige mensen. Wat een zorgvuldigheid voor die prijs.',
-    name: 'Wytze v.d. Zweep',
+    review: '[REVIEW_TEKST_3]',
+    name: '[REVIEW_NAAM_3]',
   },
   {
-    review:
-      'Ik ga naar de kapper om geknipt te worden en dat doen ze perfekt. De prijs is redelijk en het vakmanschap is groot.',
-    name: 'Vaste Klant',
+    review: '[REVIEW_TEKST_4]',
+    name: '[REVIEW_NAAM_4]',
   },
 ];
 
@@ -59,9 +55,9 @@ export default function HomePage({ onNavigate }: HomePageProps) {
       <section className="relative h-[85vh] flex items-center justify-center text-center px-6 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <img
-            src="https://images.unsplash.com/photo-1585747860715-2ba37e788b70?q=80&w=2074&auto=format&fit=crop"
+            src="[AFBEELDING_1]"
             className="w-full h-full object-cover opacity-30"
-            alt="Barbershop Lunetten interieur"
+            alt="[BEDRIJFSNAAM] interieur"
           />
           <div
             className="absolute inset-0"
@@ -70,22 +66,22 @@ export default function HomePage({ onNavigate }: HomePageProps) {
         </div>
 
         <div className="relative z-10 max-w-4xl">
-          <h1 className="hero-title mb-4 tracking-tighter font-heading">BARBERSHOP LUNETTEN</h1>
+          <h1 className="hero-title mb-4 tracking-tighter font-heading">[BEDRIJFSNAAM]</h1>
           <p className="text-lg md:text-xl mb-2 font-medium tracking-wide text-gold uppercase font-heading">
-            Strakke kapsels, fades en baardverzorging in Utrecht
+            Strakke kapsels, fades en baardverzorging in [STAD]
           </p>
           <p className="text-md md:text-lg opacity-70 mb-10">
-            Gevestigd in winkelcentrum Lunetten. Meesterschap en zorgvuldigheid voor elke man.
+            [LOCATIEBESCHRIJVING]. Meesterschap en zorgvuldigheid voor elke man.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="tel:0681546043"
+              href="tel:[TELEFOON]"
               className="bg-gold text-navy-deep font-heading font-bold px-10 py-3 uppercase tracking-wide transition-all duration-300 hover:opacity-90 hover:-translate-y-px"
             >
               Bel voor afspraak
             </a>
             <a
-              href="https://wa.me/31681546043"
+              href="https://wa.me/[WHATSAPP_NUMMER]"
               className="border border-textMain text-textMain font-heading font-bold px-10 py-3 uppercase tracking-wide transition-all duration-300 hover:bg-textMain hover:text-navy-deep"
             >
               WhatsApp ons
@@ -93,8 +89,8 @@ export default function HomePage({ onNavigate }: HomePageProps) {
           </div>
 
           <div className="mt-16 pt-8 border-t border-[#374151] flex flex-wrap justify-center gap-10 text-[10px] uppercase tracking-[0.3em] opacity-50">
-            <span>Zevenwouden 258 B</span>
-            <span>U-Pas Geaccepteerd</span>
+            <span>[ADRES]</span>
+            <span>[BETAALMETHODE]</span>
             <span>Koffie & Thee staat klaar</span>
           </div>
         </div>
@@ -105,7 +101,7 @@ export default function HomePage({ onNavigate }: HomePageProps) {
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="section-title mb-8 font-heading">Echt Vakmanschap</h2>
           <p className="text-lg md:text-xl opacity-80 leading-relaxed font-light">
-            Bij Barbershop Lunetten draait het om zorgvuldigheid en kwaliteit. In tegenstelling tot de
+            Bij [BEDRIJFSNAAM] draait het om zorgvuldigheid en kwaliteit. In tegenstelling tot de
             standaard kapsalons verderop, nemen wij echt de tijd voor uw kapsel en baard. Een plek
             waar rust, kundigheid en een goed gesprek samenkomen.
           </p>
@@ -157,13 +153,13 @@ export default function HomePage({ onNavigate }: HomePageProps) {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="tel:0681546043"
+              href="tel:[TELEFOON]"
               className="bg-gold text-navy-deep font-heading font-bold px-12 py-3 uppercase tracking-wide transition-all duration-300 hover:opacity-90 hover:-translate-y-px"
             >
-              Bel 06 815 460 43
+              Bel [TELEFOON]
             </a>
             <a
-              href="https://wa.me/31681546043"
+              href="https://wa.me/[WHATSAPP_NUMMER]"
               className="border border-textMain text-textMain font-heading font-bold px-12 py-3 uppercase tracking-wide transition-all duration-300 hover:bg-textMain hover:text-navy-deep"
             >
               WhatsApp Bericht

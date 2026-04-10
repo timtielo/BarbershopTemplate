@@ -5,19 +5,19 @@ export default function OverOnsPage() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           <div className="relative overflow-hidden">
             <img
-              src="/image.png"
+              src="[AFBEELDING_2]"
               className="w-full shadow-2xl border border-[#374151]"
-              alt="Barbershop Lunetten - Samer aan het werk"
+              alt="[BEDRIJFSNAAM] - [NAAM_EIGENAAR] aan het werk"
             />
             <div className="absolute inset-0 border border-gold/20 pointer-events-none" />
           </div>
 
           <div>
-            <h1 className="section-title mb-8 font-heading">Over Samer & Team</h1>
+            <h1 className="section-title mb-8 font-heading">Over [NAAM_EIGENAAR] & Team</h1>
             <div className="space-y-6 text-lg opacity-80 font-light leading-relaxed">
               <p>
-                Barbershop Lunetten is de passie van Samer. Gelegen in het hart van winkelcentrum
-                Lunetten, Utrecht, hebben we een plek gecreëerd waar mannen zich direct thuis voelen.
+                [BEDRIJFSNAAM] is de passie van [NAAM_EIGENAAR]. Gelegen in [LOCATIEBESCHRIJVING],
+                [STAD], hebben we een plek gecreëerd waar mannen zich direct thuis voelen.
                 Voor ons is kapper zijn meer dan alleen haar kort maken; het is een ambacht.
               </p>
               <p>
@@ -36,28 +36,28 @@ export default function OverOnsPage() {
               <ul className="text-sm opacity-70 space-y-3">
                 <li className="flex items-start gap-3">
                   <span className="text-gold mt-0.5">—</span>
-                  <span>Zorgvuldigheid boven snelheid</span>
+                  <span>[WAARDE_1]</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-gold mt-0.5">—</span>
-                  <span>Geduld voor kinderen</span>
+                  <span>[WAARDE_2]</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-gold mt-0.5">—</span>
-                  <span>Eerlijke prijzen & U-pas acceptatie</span>
+                  <span>[WAARDE_3]</span>
                 </li>
               </ul>
             </div>
 
             <div className="mt-8 flex flex-col sm:flex-row gap-4">
               <a
-                href="tel:0681546043"
+                href="tel:[TELEFOON]"
                 className="bg-gold text-navy-deep font-heading font-bold px-10 py-3 uppercase tracking-wide transition-all duration-300 hover:opacity-90 hover:-translate-y-px text-center"
               >
                 Bel voor afspraak
               </a>
               <a
-                href="https://wa.me/31681546043"
+                href="https://wa.me/[WHATSAPP_NUMMER]"
                 className="border border-textMain text-textMain font-heading font-bold px-10 py-3 uppercase tracking-wide transition-all duration-300 hover:bg-textMain hover:text-navy-deep text-center"
               >
                 WhatsApp ons

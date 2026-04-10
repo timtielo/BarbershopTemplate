@@ -30,7 +30,7 @@ export default function Header({ currentPage, onNavigate }: HeaderProps) {
           onClick={() => handleNav('home')}
           className="font-heading text-xl font-bold tracking-widest uppercase"
         >
-          BARBERSHOP <span className="text-gold">LUNETTEN</span>
+          [BEDRIJFSNAAM] <span className="text-gold">[STAD]</span>
         </button>
 
         <nav className="hidden md:flex space-x-8">
@@ -48,7 +48,7 @@ export default function Header({ currentPage, onNavigate }: HeaderProps) {
         </nav>
 
         <a
-          href="tel:0681546043"
+          href="tel:[TELEFOON]"
           className="hidden sm:inline-block bg-gold text-navy-deep font-heading font-bold px-7 py-3 uppercase tracking-wide text-sm transition-all duration-300 hover:opacity-90 hover:-translate-y-px"
         >
           Afspraak Maken
@@ -77,7 +77,7 @@ export default function Header({ currentPage, onNavigate }: HeaderProps) {
             </button>
           ))}
           <a
-            href="tel:0681546043"
+            href="tel:[TELEFOON]"
             className="bg-gold text-navy-deep font-heading font-bold px-7 py-3 uppercase tracking-wide text-sm text-center transition-all duration-300 hover:opacity-90"
           >
             Bel Nu
